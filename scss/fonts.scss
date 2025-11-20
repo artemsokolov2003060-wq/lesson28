@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assats/fontsMontserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../assats/fontsMontserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assats/fontsMontserrat-Regular.woff2') format('woff2'),
+        url('../assats/fontsMontserrat-Regular.woff') format('woff'),
+        url('../assats/fontsMontserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assats/fontsMontserrat-Bold.eot');
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../assats/fontsMontserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assats/fontsMontserrat-Bold.woff2') format('woff2'),
+        url('../assats/fontsMontserrat-Bold.woff') format('woff'),
+        url('../assats/fontsMontserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assats/fontsMontserrat-Medium.eot');
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+        url('../assats/fontsMontserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assats/fontsMontserrat-Medium.woff2') format('woff2'),
+        url('../assats/fontsMontserrat-Medium.woff') format('woff'),
+        url('../assats/fontsMontserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assats/fontsMontserrat-SemiBold.eot');
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+        url('../assats/fontsMontserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../assats/fontsMontserrat-SemiBold.woff2') format('woff2'),
+        url('../assats/fontsMontserrat-SemiBold.woff') format('woff'),
+        url('../assats/fontsMontserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
