@@ -65,9 +65,13 @@
     grid-column-end: 5;
 }
 
+.inf_item_images {
+    
+}
+
 .inf_item_text {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 120%;
-    background-image: url('assats/inf-images/image 5.png');
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: #fff;
 }
