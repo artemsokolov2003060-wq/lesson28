@@ -12,8 +12,8 @@
         &::after{
             position: absolute;
             content: '';
-            top: 150px;
-            right: 680px;
+            top: 50px;
+            right: 0px;
             width: 400px;
             height: 2px;
             background: #000;
@@ -30,8 +30,8 @@
 }
 .hero_parametrs {
     position: absolute;
-    right: 840px;
-    top: 240px;
+    right: 140px;
+    top: 140px;
     background: $PrimaryBlue100;
     width: 252px;
     display: flex;
