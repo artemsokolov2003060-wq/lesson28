@@ -1,0 +1,49 @@
+@import '../varibales';
+
+.plans {
+    margin-top: 70px;
+    &_head {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 2px;
+            background: #000;
+            margin-top: 12px;
+        }
+    }
+    &_block {
+        margin-top: 31px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    &_image {
+        margin-bottom: 30px;
+    }
+    &_title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+    &_text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 50px;
+    }
+    &_button {
+        color: #ffffff;
+        padding: 14px 32px;
+        background: $PrimaryBlue100;
+        
+    }
+}
+
+.plans_images {
+    width: 100%;
+}

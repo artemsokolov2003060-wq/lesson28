@@ -1,0 +1,23 @@
+@import '../varibales';
+
+.map {
+    margin-top: 150px;
+    &_head {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 2px;
+            background: #000;
+            margin-top: 12px;
+        }
+    }
+    &_radius {
+        width: 100vw;
+        height: 825px;
+        margin-top: 25px;
+    }
+}
