@@ -31,3 +31,14 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .pdf {
+        &_block {
+            display: block;
+            &_images {
+                margin: 35px 0;
+            }
+        }
+    }
+}

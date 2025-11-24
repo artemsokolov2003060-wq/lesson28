@@ -2,62 +2,82 @@
 .footer-wrraper {
     background: $PrimaryBlue100;
 }
-
-.left_block {
-    width: 45%;
-    margin-top: 70px;
-}
-
 .footer {
-    margin-top: 130px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
+    display: block;
+    margin-top: 200px;
     &_text {
+        margin-top: 70px;
+        width: 570px;
         font-weight: 600;
         font-size: 32px;
         line-height: 120%;
         color: #fff;
+        margin-right: 100px;
     }
-    &_logo {
+    &_registr {
+        margin-top: 80px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &_field {
+            width: 330px;
+            height: 50px;
+            background: $PrimaryBlue100;
+            border: 1px solid #fff;
+            padding: 15PX;
+        }
+        &_button {
+            width: 300px;
+            height: 50px;
+        }
+    }
+    &_tel {
+        text-align: right;
+        position: relative;
+        bottom: 55px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 150%;
+        color: #fff;
+    }
+    &_logo{
         font-weight: 700;
         font-size: 32px;
         line-height: 170%;
         color: #fff;
-        margin-top: 110px;
     }
 }
 
-.right_block {
-    margin-top: 70px;
-    width: 45%;
+.top_block {
     display: flex;
-    flex-direction: column;
-    gap: 70px;
 }
 
-.footer_registr {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    &_field {
-        width: 330px;
-        height: 50px;
-        background: $PrimaryBlue100;
-        border: 2px solid #fff;
-        padding-left: 10px;
+.bottom_block {
+    display: flexbox;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+    .footer {
+        &_registr {
+            margin-left: 0;
+        }
     }
-    &_button {
-        width: 240px;
-        height: 50px;
+    .top_block {
+        display: flex;
+        flex-direction: column;
     }
 }
 
-.footer_tel {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 150%;
-    color: #fff;
+@media screen and (max-width: 767px) {
+    .footer {
+        &_registr {
+            margin-left: 0;
+        }
+    }
+    .top_block {
+        display: flex;
+        flex-direction: column;
+    }
 }
